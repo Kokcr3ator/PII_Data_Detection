@@ -1,4 +1,4 @@
-# PII_Data_Detection with Transformers
+# PII Data Detection with Transformers
 This repository is inspired by a Kaggle competition hosted by Vanderbilt University and The Learning Agency Lab, which seeks automated solutions for PII detection in a dataset of about 22,000 student essays (<a href="https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data" target="_blank">Link</a>).
 
 ## Optimization Strategy
