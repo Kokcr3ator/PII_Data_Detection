@@ -21,7 +21,7 @@ F_{\beta} = (1 + \beta^2) \cdot \frac{precision \cdot recall}{(\beta^2 \cdot pre
 
 Although models are not trained explicitly to maximize the $F_5$ score, a posteriori optimization is employed. Given the higher importance of recall over precision in the $F_5$ score, especially considering the uneven misclassification costs, a strategy is devised to bias predictions towards PII classification.
 
-## Non-Classical Prediction Strategy
+## Prediction Strategy
 
 During inference, scores for all labels are computed for each token. However, only probabilities for PII labels are considered when applying the argmax function. This approach, outlined as:
 
